@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Hambúrguer</title>
+    <link rel="stylesheet" href="Estilização.css">
+    <link rel="stylesheet" href="Estilização2.css">
+    <link rel="stylesheet" href="Estilização3.css">
+    <link rel="stylesheet" href="pop-op.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+
+
+        <h1 class="titulo">aZurro</h1>
+        <!-- Caixa de input invisível que controla o estado do menu -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="Hambúrguer">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+    
+        <ul class="nav-list">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="Hambúrguer"> 
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+        
+              
+            
+        </ul>  
+         <ul class="Menus">
+            <li><a href="#serviços">Services</a></li>
+            <li><a href="#Cardapio">Cardapio</a></li>
+            <li><a href="#caixa">Contato</a></li>
+<!--             <div id="switch" onclick="togglemode()">
+                <button>
+                </button>
+                <span class="button">   
+                </span>
+            </div> -->
+        </ul>
+    </nav>
+
+    <!----------------------------------------->
+
+ <!--Primeira Introdução----->
+  <div class="introdução">
+           
+           <div class="parallax"></div>
+         <span class="T1"> <h2>A melhor comida para todos os momentos.</h2></span>
+
+    </div>
+  
+<!------------------------------------------>
+
+<!--Amostra dos Serviços---->
+
+<h1 id="serviços">Nossos Services</h1>
+    <section class="serviços" >
+                    
+        <div class="buffet"><img src="/Fotos de icones/mediterranean-buffet-7376614_1280.jpg" alt="">
+            
+            <h3>Café & Bistrô</h3>
+            <p>Nosso bistrô oferece uma ampla variedade de cafés, smoothies, deliciosos salgados e sobremesas. Uma excelente opção para quem
+            busca um lugar tranquilo e aconchegante</p>
+                
+            <button>Quero detalhes</button>
+        </div>
+        <div class="buffet"><img src="/Fotos de icones/food-712665_1280.jpg" alt="">
+            <h3>Buffet</h3> 
+            <p>Buffet e catering personalizado para eventos, produções e celebrações. Com um menu variado e adaptável às preferências do cliente, atendimento atencioso e profissional.</p>   
+        
+            <button>Quero detalhes</button>
+        
+        </div>
+        <div class="buffet"><img src="/Fotos de icones/coffee-7561288_1920.jpg" alt="">
+            <h3>Delivery</h3>
+            <p>Para quem deseja desfrutar no conforto de casa, oferecemos delivery dos produtos. Com o mesmo cardápio variado de sempre, sem perder nosso sabor e padrão de qualidade.</p>
+            
+            <button>Quero detalhes</button>
+        </div>
+      
+    </section>
+<!---------------------------------->
+
+<!--Segunda introdução-->
+    <span class="introdução">       
+        
+      
+            <div class="parallax2"></div>
+<span class="T1"> <h2>A melhor comida para todos os momentos.</h2></span>
+ </span>
+<!--------------------------------->
+
+<!--Cardapio-->
+
+ <h1 id="Cardapio">Cardapio</h1>
+ <section class="serviços" id="Cardapio">
+    
+   
+                    
+    <a href="#popup" class="abrir-pop"> 
+        <div class="buffet-c"><img src="/Fotos de icones/coffee-4618705_1280.png" alt="">  
+        <h2>Café & Bistrô</h2>     
+        </div>
+    </a>
+    
+    <a href="#popup2" class="abrir-pop"> 
+        <div class="buffet-c"><img src="/Fotos de icones/coffee-7561288_1920 (1).png" alt="">  
+        <h2>Café & Bistrô</h2>     
+        </div>
+    </a>
+
+    <a href="#popup3" class="abrir-pop"> 
+        <div class="buffet-c"><img src="/Fotos de icones/bebidas-8378725_1280.png"alt="">  
+        <h2>Café & Bistrô</h2>     
+        </div>
+    </a>
+
+</section>
+
+ <section class="serviços-2">
+    <a href="#popup4" class="abrir-pop"> 
+        <div class="buffet-c"><img src="/Fotos de icones/mushroom-4994622_1280.png" alt="">  
+        <h2>Café & Bistrô</h2>     
+        </div>
+    </a>
+
+    <a href="#popup5" class="abrir-pop"> 
+        <div class="buffet-c"><img src="/Fotos de icones/pie-8139063_1920.png" alt="">  
+        <h2>Café & Bistrô</h2>     
+        </div>
+    </a>
+
+    <a href="#popup6" class="abrir-pop"> 
+        <div class="buffet-c"><img src="/Fotos de icones/colorful-1835921_1280.png" alt="">  
+        <h2>Café & Bistrô</h2>     
+        </div>
+    </a>
+ </section>
+
+ <!----------------------------->
+
+
+ <!--Lista de contato-->
+
+<span class="introdução">       
+    
+    <div class="parallax3"></div>
+
+</span>
+
+<div class="contato">
+
+    
+
+    <div class="caixa"> 
+        <h1 id="caixa">Entre em Contato</h1>
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Telefone">
+
+        <form action="submit">
+        
+            <select name="opção" id="">
+                <option value="">Preferência de contato</option>
+                <option value="">WhatsAPP</option>
+                <option value="">Email</option>
+                <option value="">SMS</option>
+            </select>
+        </form>
+       
+
+        <button>Enviar</button>
+    </div>
+     
+
+
+
+  <!--POP-up Cardapios-->
+  
+  <a href="#popup" class="abrir-pop"></a>
+
+
+    <div id="popup" class="popup">
+        <div class="janela">
+            
+        <h4>Café e Bistro</h4>
+
+        <img src="./Fotos de icones/coffee-4618705_1280.png" class="Cardapio" alt="">
+        <p class="teste">O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
+            Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.
+            Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com notas de chocolate e caramelo.
+            Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. 
+            Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave </p>
+            <a href="#Cardapio" class="fechar" >Fechar</a>
+        </div>
+    </div>
+    <div id="popup2" class="popup">
+        <div class="janela">
+            
+        <h4>Café e Bistro</h4>
+
+        <img src="./Fotos de icones/coffee-7561288_1920 (1).png" class="Cardapio" alt="">
+        <p class="teste">O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
+            Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.
+            Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com notas de chocolate e caramelo.
+            Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. 
+            Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave </p>
+            <a href="#Cardapio" class="fechar" >Fechar</a>
+        </div>
+    </div>
+
+
+  
+    <div id="popup3" class="popup">
+        <div class="janela">
+            
+      <h4>Café e Bistro</h4>
+
+        <img src="./Fotos de icones/bebidas-8378725_1280.png" class="Cardapio" alt="">
+        <p class="teste">O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
+             Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.
+            Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com notas de chocolate e caramelo.
+             Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. 
+            Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave </p>
+            <a href="#Cardapio" class="fechar" >Fechar</a>
+        </div>
+    </div>
+    <div id="popup4" class="popup">
+        <div class="janela">
+            
+        <h4>Café e Bistro</h4>
+
+        <img src="./Fotos de icones/mushroom-4994622_1280.png" class="Cardapio" alt="">
+        <p class="teste">O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
+             Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.
+            Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com notas de chocolate e caramelo.
+             Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. 
+            Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave </p>
+            <a href="#Cardapio" class="fechar" >Fechar</a>
+        </div>
+    </div>
+    <div id="popup5" class="popup">
+        <div class="janela">
+            
+        <h4>Café e Bistro</h4>
+
+        <img src="./Fotos de icones/pie-8139063_1920.png" class="Cardapio" alt="">
+        <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
+             Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.
+            Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com notas de chocolate e caramelo.
+             Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. 
+            Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave </p>
+            <a href="#Cardapio" class="fechar" >Fechar</a>
+        </div>
+    </div>
+    <div id="popup6" class="popup">
+        <div class="janela">
+            
+        <h4>Café e Bistro</h4>
+
+        <img src="./Fotos de icones/colorful-1835921_1280.png" class="Cardapio" alt="">
+        <p class="teste">O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
+             Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.
+            Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com notas de chocolate e caramelo.
+             Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. 
+            Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave </p>
+            <a href="#Cardapio" class="fechar" >Fechar</a>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+ <footer>
+    <p> 2025  Desenvolvido por Gustavo | Projeto fictício sem fins comerciais.</p>
+ </footer>
+
+    <script src="Funções.js">
+
+    </script>
+
+
+</body>
+</html>

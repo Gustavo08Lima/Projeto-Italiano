@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Efeito Parallax</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="parallax"></div>
+
+  <div class="content">
+    <h1>Bem-vindo ao Parallax</h1>
+    <p>Este é um exemplo de conteúdo que se move mais rápido que o fundo.</p>
+  </div>
+
+  <div class="parallax"></div>
+
+  <div class="content">
+    <h1>Outro bloco de conteúdo</h1>
+    <p>Você pode criar várias seções para aprimorar o efeito.</p>
+  </div>
+
+
+  <style>
+    /* Reset básico */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Efeito Parallax */
+.parallax {
+  background-image: url('./Fotos.de.fundo/abendbrot-939435_1280.jpg'); /* Troque pelo caminho da sua imagem */
+  height: 400px; /* Altura do bloco */
+  background-attachment: fixed; /* Faz o efeito parallax */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição */
+  background-size: cover; /* Preenche o espaço */
+}
+
+/* Conteúdo padrão */
+.content {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+  </style>
+</body>
+</html>

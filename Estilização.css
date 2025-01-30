@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-family: 'Barlow', sans-serif
+}
+
+
+h1 {
+   color: #BFA67F;
+   font-family: 'Barlow', sans-serif
+}
+
+.introdução {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BFA67F;
+    background-attachment: fixed;
+    background-size: cover;
+  background-position: center;
+    
+}
+.introdução .parallax {
+    background-image: url(./Fotos.de.fundo/restaurant-4011989_1920\ \(1\).jpg);
+    background-attachment: fixed;
+    width: 90%;
+    height: 100vh;
+    opacity: 0.5;
+    box-shadow: rgb(128, 95, 95);
+    background-size: cover;
+    background-position: center;
+}
+.introdução .parallax2 {
+    background-image: url(./Fotos.de.fundo/abendbrot-939435_1280.jpg);
+    background-attachment: fixed;
+    width: 90%;
+    height: 100vh;
+    opacity: 0.5;
+    box-shadow: rgb(128, 95, 95);
+    background-size: cover;
+    background-position: center;
+}
+.introdução .parallax3 {
+    background-image: url(./Fotos.de.fundo/wine-939439_1920.jpg);
+    background-attachment: fixed;
+    width: 90%;
+    height: 100vh;
+    opacity: 0.5;
+    box-shadow: rgb(128, 95, 95);
+    background-size: cover;
+    background-position: center;
+}
+
+.T1 {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5); /* Usando RGBA para semitransparência */
+    width: 100%;
+    height: 18vh;
+    font-size: 25px;
+    
+  
+}
+.T1 h2 {
+    color: rgba(0, 0, 0, 0.794);
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f4f5;
+    
+}
+
+.titulo {
+    font-size: 30px;
+    padding: 30px;
+}
+
+
+.menu-toggle {
+    display: none; /* Esconde o checkbox real */
+    
+}
+
+.Menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    list-style-type: none;
+}
+
+.Menus li {
+    margin: 3%;
+}
+
+@media (max-width: 768px) {
+
+
+
+
+.nav-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: none; /* Inicialmente escondido */
+    position: absolute ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    background-color: #333;
+    text-align: center;
+    z-index: 10;
+}
+
+.nav-list .Hambúrguer {
+    margin-left: 18vh;
+    margin-top: 3.5vh;
+  
+}
+
+.nav-list li {
+    margin: 10px 0;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu-toggle {
+    display: none; /* Esconde o checkbox real */
+    
+}
+
+
+.nav-list {
+    margin-left: 50%;
+   
+    width: 200%;
+    height: 500%;
+    
+    flex-direction: column;
+    list-style-type: none;
+    
+}
+
+
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.Hambúrguer {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+
+.Hambúrguer .bar {
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+}
+
+
+#menu-toggle:checked + .Hambúrguer + .nav-list {
+    display: block; /* Exibe o menu quando o checkbox é marcado */
+}
+
+
+
+
+.bar {
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+}
+
+.bars {
+    background-color: white;
+}
+}
+/* Responsivo */
+
+/*
+
+
+.button {
+    display: flex;
+    margin: 20px;
+    width: 5vh;
+    border: 1px solid rgb(0, 0, 0);
+    height: 1vh;
+    border-radius: 10px;
+}
+
+#switch button {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 1;
+        left: 20px;
+        top: 35px;
+  }
+
+  */
